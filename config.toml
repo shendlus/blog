@@ -1,0 +1,37 @@
+baseURL = "https://www.shenbi.xyz/"
+languageCode = "zh-cn"
+title = "神笔网"
+Paginate = 1000
+googleAnalytics = ""
+theme = "showcase"
+themesDir = "../.."
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+publishDir = "docs"
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "神笔网"
+  description = "神笔网官方网站，您的网站、小程序和数据化运营伙伴"
+  message = ""
+  hideAutoMenu = false
+  # hide dir menu if true
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+
+[[menu.main]]
+  name = "我们"
+  url = "/about/"
+#[social]
+ # facebook = "https://facebook.com"
+ # twitter = "https://twitter.com"
+  #instagram = "https://instagram.com"
+ # linkedin = "https://linkedin.com"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+#shendl
+mail ="81279901@qq.com"
